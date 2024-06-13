@@ -78,7 +78,7 @@ Follow [the instructions](https://github.com/raspberrypi/pico-sdk) for installin
 ```
 mkdir -p build
 cd build
-cmake ..
+cmake .. -DPICO_SDK_PATH= <path> 
 make
 ```
 
